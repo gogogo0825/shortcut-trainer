@@ -1,0 +1,12 @@
+node_modules/
+dist/
+coverage/
+playwright-report/
+test-results/
+*.tsbuildinfo
+.env*
+.cache/
+.vite/
+*.log
+shortcut-trainer-backup*.json
+shortcut-trainer-device-verifications*.json

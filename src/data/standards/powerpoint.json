@@ -1,0 +1,1150 @@
+[
+  {
+    "id": "powerpoint-new-slide",
+    "revision": 2,
+    "category": "powerpoint",
+    "difficulty": "beginner",
+    "action": "新しいスライドを挿入する",
+    "description": "Windows版PowerPointの編集中に新しいスライドを追加します。旧revision 1のCtrl+Shift+Mは誤りです。",
+    "platform": [
+      "Windows",
+      "Microsoft PowerPoint"
+    ],
+    "appVersions": [
+      "PowerPoint for Windows（公式資料）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "M",
+        "code": "KeyM",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "slide",
+      "insert"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "powerpoint-save",
+    "revision": 1,
+    "category": "powerpoint",
+    "difficulty": "beginner",
+    "action": "プレゼンテーションを保存する",
+    "description": "プレゼンテーションを保存する操作です。",
+    "platform": [
+      "Windows",
+      "Microsoft PowerPoint"
+    ],
+    "appVersions": [
+      "PowerPoint for Windows（公式資料）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "S",
+        "code": "KeyS",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations",
+      "checkedAt": "2026-11-14T06:51:52.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "powerpoint-copy",
+    "revision": 1,
+    "category": "powerpoint",
+    "difficulty": "beginner",
+    "action": "選択した内容をコピーする",
+    "description": "選択した内容をコピーする操作です。",
+    "platform": [
+      "Windows",
+      "Microsoft PowerPoint"
+    ],
+    "appVersions": [
+      "PowerPoint for Windows（公式資料）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "C",
+        "code": "KeyC",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations",
+      "checkedAt": "2026-11-14T06:51:52.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "powerpoint-undo",
+    "revision": 1,
+    "category": "powerpoint",
+    "difficulty": "beginner",
+    "action": "操作を元に戻す",
+    "description": "操作を元に戻す操作です。",
+    "platform": [
+      "Windows",
+      "Microsoft PowerPoint"
+    ],
+    "appVersions": [
+      "PowerPoint for Windows（公式資料）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "Z",
+        "code": "KeyZ",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations",
+      "checkedAt": "2026-11-14T06:51:52.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-powerpoint-windows-new-presentation",
+    "revision": 1,
+    "category": "powerpoint",
+    "difficulty": "beginner",
+    "action": "新しいプレゼンテーションを作成する",
+    "description": "Windows版PowerPointで新しいプレゼンテーションを作成する操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft PowerPoint"
+    ],
+    "appVersions": [
+      "PowerPoint for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "N",
+        "code": "KeyN",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-powerpoint-windows-bold",
+    "revision": 1,
+    "category": "powerpoint",
+    "difficulty": "beginner",
+    "action": "選択した文字に太字を適用する",
+    "description": "Windows版PowerPointで選択した文字に太字を適用する操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft PowerPoint"
+    ],
+    "appVersions": [
+      "PowerPoint for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "B",
+        "code": "KeyB",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-powerpoint-windows-cut",
+    "revision": 1,
+    "category": "powerpoint",
+    "difficulty": "beginner",
+    "action": "選択した文字やオブジェクトを切り取る",
+    "description": "Windows版PowerPointで選択した文字やオブジェクトを切り取る操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft PowerPoint"
+    ],
+    "appVersions": [
+      "PowerPoint for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "X",
+        "code": "KeyX",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-powerpoint-windows-paste",
+    "revision": 1,
+    "category": "powerpoint",
+    "difficulty": "beginner",
+    "action": "切り取りまたはコピーした内容を貼り付ける",
+    "description": "Windows版PowerPointで切り取りまたはコピーした内容を貼り付ける操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft PowerPoint"
+    ],
+    "appVersions": [
+      "PowerPoint for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "V",
+        "code": "KeyV",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-powerpoint-windows-print",
+    "revision": 1,
+    "category": "powerpoint",
+    "difficulty": "beginner",
+    "action": "プレゼンテーションを印刷する",
+    "description": "Windows版PowerPointでプレゼンテーションを印刷する操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft PowerPoint"
+    ],
+    "appVersions": [
+      "PowerPoint for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "P",
+        "code": "KeyP",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-powerpoint-windows-open",
+    "revision": 1,
+    "category": "powerpoint",
+    "difficulty": "beginner",
+    "action": "プレゼンテーションを開く",
+    "description": "Windows版PowerPointでプレゼンテーションを開く操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft PowerPoint"
+    ],
+    "appVersions": [
+      "PowerPoint for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "O",
+        "code": "KeyO",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-powerpoint-windows-redo",
+    "revision": 1,
+    "category": "powerpoint",
+    "difficulty": "intermediate",
+    "action": "直前の操作をやり直す",
+    "description": "Windows版PowerPointで直前の操作をやり直す操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft PowerPoint"
+    ],
+    "appVersions": [
+      "PowerPoint for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "Y",
+        "code": "KeyY",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-powerpoint-windows-insert-link",
+    "revision": 1,
+    "category": "powerpoint",
+    "difficulty": "intermediate",
+    "action": "ハイパーリンクを挿入する",
+    "description": "Windows版PowerPointでハイパーリンクを挿入する操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft PowerPoint"
+    ],
+    "appVersions": [
+      "PowerPoint for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "K",
+        "code": "KeyK",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-powerpoint-windows-font-dialog",
+    "revision": 1,
+    "category": "powerpoint",
+    "difficulty": "intermediate",
+    "action": "フォントダイアログを開く",
+    "description": "Windows版PowerPointでフォントダイアログを開く操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft PowerPoint"
+    ],
+    "appVersions": [
+      "PowerPoint for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "T",
+        "code": "KeyT",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-powerpoint-windows-quit",
+    "revision": 1,
+    "category": "powerpoint",
+    "difficulty": "intermediate",
+    "action": "PowerPointを終了する",
+    "description": "Windows版PowerPointでPowerPointを終了する操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft PowerPoint"
+    ],
+    "appVersions": [
+      "PowerPoint for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "Q",
+        "code": "KeyQ",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-powerpoint-windows-next-slide",
+    "revision": 1,
+    "category": "powerpoint",
+    "difficulty": "intermediate",
+    "action": "次のスライドへ移動する",
+    "description": "Windows版PowerPointで次のスライドへ移動する操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft PowerPoint"
+    ],
+    "appVersions": [
+      "PowerPoint for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "PageDown",
+        "code": "PageDown",
+        "modifiers": []
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-powerpoint-windows-previous-slide",
+    "revision": 1,
+    "category": "powerpoint",
+    "difficulty": "intermediate",
+    "action": "前のスライドへ移動する",
+    "description": "Windows版PowerPointで前のスライドへ移動する操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft PowerPoint"
+    ],
+    "appVersions": [
+      "PowerPoint for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "PageUp",
+        "code": "PageUp",
+        "modifiers": []
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-powerpoint-windows-start-slideshow",
+    "revision": 1,
+    "category": "powerpoint",
+    "difficulty": "intermediate",
+    "action": "スライドショーを開始する",
+    "description": "Windows版PowerPointでスライドショーを開始する操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft PowerPoint"
+    ],
+    "appVersions": [
+      "PowerPoint for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "F5",
+        "code": "F5",
+        "modifiers": []
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-powerpoint-windows-select-objects",
+    "revision": 1,
+    "category": "powerpoint",
+    "difficulty": "intermediate",
+    "action": "スライド上のオブジェクトをすべて選択する",
+    "description": "Windows版PowerPointでスライド上のオブジェクトをすべて選択する操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft PowerPoint"
+    ],
+    "appVersions": [
+      "PowerPoint for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "A",
+        "code": "KeyA",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-powerpoint-windows-group-objects",
+    "revision": 1,
+    "category": "powerpoint",
+    "difficulty": "intermediate",
+    "action": "選択したオブジェクトをグループ化する",
+    "description": "Windows版PowerPointで選択したオブジェクトをグループ化する操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft PowerPoint"
+    ],
+    "appVersions": [
+      "PowerPoint for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "G",
+        "code": "KeyG",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-powerpoint-windows-duplicate-slide",
+    "revision": 1,
+    "category": "powerpoint",
+    "difficulty": "intermediate",
+    "action": "選択したスライドを複製する",
+    "description": "Windows版PowerPointで選択したスライドを複製する操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft PowerPoint"
+    ],
+    "appVersions": [
+      "PowerPoint for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "D",
+        "code": "KeyD",
+        "modifiers": [
+          "Ctrl",
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-powerpoint-windows-save-as",
+    "revision": 1,
+    "category": "powerpoint",
+    "difficulty": "intermediate",
+    "action": "名前を付けてプレゼンテーションを保存する",
+    "description": "Windows版PowerPointで名前を付けてプレゼンテーションを保存する操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft PowerPoint"
+    ],
+    "appVersions": [
+      "PowerPoint for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "S",
+        "code": "KeyS",
+        "modifiers": [
+          "Ctrl",
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-powerpoint-windows-copy-format",
+    "revision": 1,
+    "category": "powerpoint",
+    "difficulty": "intermediate",
+    "action": "選択した文字やオブジェクトの書式をコピーする",
+    "description": "Windows版PowerPointで選択した文字やオブジェクトの書式をコピーする操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft PowerPoint"
+    ],
+    "appVersions": [
+      "PowerPoint for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "C",
+        "code": "KeyC",
+        "modifiers": [
+          "Ctrl",
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-powerpoint-windows-paste-format",
+    "revision": 1,
+    "category": "powerpoint",
+    "difficulty": "advanced",
+    "action": "コピーした書式を貼り付ける",
+    "description": "Windows版PowerPointでコピーした書式を貼り付ける操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft PowerPoint"
+    ],
+    "appVersions": [
+      "PowerPoint for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "V",
+        "code": "KeyV",
+        "modifiers": [
+          "Ctrl",
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-powerpoint-windows-paste-special",
+    "revision": 1,
+    "category": "powerpoint",
+    "difficulty": "advanced",
+    "action": "形式を選択して貼り付けるダイアログを開く",
+    "description": "Windows版PowerPointで形式を選択して貼り付けるダイアログを開く操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft PowerPoint"
+    ],
+    "appVersions": [
+      "PowerPoint for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "V",
+        "code": "KeyV",
+        "modifiers": [
+          "Ctrl",
+          "Alt"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-powerpoint-windows-insert-comment",
+    "revision": 1,
+    "category": "powerpoint",
+    "difficulty": "advanced",
+    "action": "新しいコメントを挿入する",
+    "description": "Windows版PowerPointで新しいコメントを挿入する操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft PowerPoint"
+    ],
+    "appVersions": [
+      "PowerPoint for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "M",
+        "code": "KeyM",
+        "modifiers": [
+          "Ctrl",
+          "Alt"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-powerpoint-windows-zoom-fit",
+    "revision": 1,
+    "category": "powerpoint",
+    "difficulty": "advanced",
+    "action": "スライドを画面に合わせて表示する",
+    "description": "Windows版PowerPointでスライドを画面に合わせて表示する操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft PowerPoint"
+    ],
+    "appVersions": [
+      "PowerPoint for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "O",
+        "code": "KeyO",
+        "modifiers": [
+          "Ctrl",
+          "Alt"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-powerpoint-windows-ungroup",
+    "revision": 1,
+    "category": "powerpoint",
+    "difficulty": "advanced",
+    "action": "選択したグループを解除する",
+    "description": "Windows版PowerPointで選択したグループを解除する操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft PowerPoint"
+    ],
+    "appVersions": [
+      "PowerPoint for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "G",
+        "code": "KeyG",
+        "modifiers": [
+          "Ctrl",
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-powerpoint-windows-copy-animation",
+    "revision": 1,
+    "category": "powerpoint",
+    "difficulty": "advanced",
+    "action": "アニメーションの書式をコピーする",
+    "description": "Windows版PowerPointでアニメーションの書式をコピーする操作です。Office 2007・2010では使用できません。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft PowerPoint"
+    ],
+    "appVersions": [
+      "PowerPoint for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "C",
+        "code": "KeyC",
+        "modifiers": [
+          "Alt",
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-powerpoint-windows-paste-animation",
+    "revision": 1,
+    "category": "powerpoint",
+    "difficulty": "advanced",
+    "action": "コピーしたアニメーションの書式を貼り付ける",
+    "description": "Windows版PowerPointでコピーしたアニメーションの書式を貼り付ける操作です。Office 2007・2010では使用できません。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft PowerPoint"
+    ],
+    "appVersions": [
+      "PowerPoint for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "V",
+        "code": "KeyV",
+        "modifiers": [
+          "Alt",
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-powerpoint-windows-focus-shape",
+    "revision": 1,
+    "category": "powerpoint",
+    "difficulty": "advanced",
+    "action": "最初の浮動オブジェクトにフォーカスする",
+    "description": "Windows版PowerPointで最初の浮動オブジェクトにフォーカスする操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft PowerPoint"
+    ],
+    "appVersions": [
+      "PowerPoint for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "5",
+        "code": "Digit5",
+        "modifiers": [
+          "Ctrl",
+          "Alt"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  }
+]

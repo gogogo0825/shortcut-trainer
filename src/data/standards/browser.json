@@ -1,0 +1,1207 @@
+[
+  {
+    "id": "browser-new-tab",
+    "revision": 1,
+    "category": "browser",
+    "difficulty": "beginner",
+    "action": "新しいタブを開く",
+    "description": "ブラウザーで新しいタブを開きます。",
+    "platform": [
+      "Windows",
+      "Web browser"
+    ],
+    "appVersions": [
+      "Chrome（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "T",
+        "code": "KeyT",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Google",
+      "url": "https://support.google.com/chrome/answer/157179?hl=en",
+      "checkedAt": "2026-11-14T06:51:52.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "tabs",
+      "navigation"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "browser-new-window",
+    "revision": 1,
+    "category": "browser",
+    "difficulty": "beginner",
+    "action": "新しいウィンドウを開く",
+    "description": "新しいウィンドウを開く操作です。",
+    "platform": [
+      "Windows",
+      "Google Chrome"
+    ],
+    "appVersions": [
+      "Chrome（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "N",
+        "code": "KeyN",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Google",
+      "url": "https://support.google.com/chrome/answer/157179?hl=en",
+      "checkedAt": "2026-11-08T00:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "browser-find",
+    "revision": 1,
+    "category": "browser",
+    "difficulty": "beginner",
+    "action": "ページ内を検索する",
+    "description": "ページ内を検索する操作です。",
+    "platform": [
+      "Windows",
+      "Google Chrome"
+    ],
+    "appVersions": [
+      "Chrome（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "F",
+        "code": "KeyF",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Google",
+      "url": "https://support.google.com/chrome/answer/157179?hl=en",
+      "checkedAt": "2026-11-08T00:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "browser-history",
+    "revision": 1,
+    "category": "browser",
+    "difficulty": "beginner",
+    "action": "履歴ページを開く",
+    "description": "履歴ページを開く操作です。",
+    "platform": [
+      "Windows",
+      "Google Chrome"
+    ],
+    "appVersions": [
+      "Chrome（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "H",
+        "code": "KeyH",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Google",
+      "url": "https://support.google.com/chrome/answer/157179?hl=en",
+      "checkedAt": "2026-11-08T00:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-chrome-windows-close-tab",
+    "revision": 1,
+    "category": "browser",
+    "difficulty": "beginner",
+    "action": "現在のタブを閉じる",
+    "description": "Windows版Google Chromeで現在のタブを閉じる操作です。ブラウザーがキーを予約するため、回答欄に届かない場合は4択または自己申告を使用してください。JIS実機は未確認です。",
+    "platform": [
+      "Windows",
+      "Google Chrome"
+    ],
+    "appVersions": [
+      "Chrome（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "W",
+        "code": "KeyW",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Google",
+      "url": "https://support.google.com/chrome/answer/157179?hl=en",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "browser-reserved"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-chrome-windows-address-bar",
+    "revision": 1,
+    "category": "browser",
+    "difficulty": "beginner",
+    "action": "アドレスバーに移動する",
+    "description": "Windows版Google Chromeでアドレスバーに移動する操作です。ブラウザーがキーを予約するため、回答欄に届かない場合は4択または自己申告を使用してください。JIS実機は未確認です。",
+    "platform": [
+      "Windows",
+      "Google Chrome"
+    ],
+    "appVersions": [
+      "Chrome（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "L",
+        "code": "KeyL",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Google",
+      "url": "https://support.google.com/chrome/answer/157179?hl=en",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "browser-reserved"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-chrome-windows-bookmark-page",
+    "revision": 1,
+    "category": "browser",
+    "difficulty": "beginner",
+    "action": "現在のページをブックマークに保存する",
+    "description": "Windows版Google Chromeで現在のページをブックマークに保存する操作です。ブラウザーがキーを予約するため、回答欄に届かない場合は4択または自己申告を使用してください。JIS実機は未確認です。",
+    "platform": [
+      "Windows",
+      "Google Chrome"
+    ],
+    "appVersions": [
+      "Chrome（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "D",
+        "code": "KeyD",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Google",
+      "url": "https://support.google.com/chrome/answer/157179?hl=en",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "browser-reserved"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-chrome-windows-downloads",
+    "revision": 1,
+    "category": "browser",
+    "difficulty": "beginner",
+    "action": "ダウンロードページを新しいタブで開く",
+    "description": "Windows版Google Chromeでダウンロードページを新しいタブで開く操作です。ブラウザーがキーを予約するため、回答欄に届かない場合は4択または自己申告を使用してください。JIS実機は未確認です。",
+    "platform": [
+      "Windows",
+      "Google Chrome"
+    ],
+    "appVersions": [
+      "Chrome（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "J",
+        "code": "KeyJ",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Google",
+      "url": "https://support.google.com/chrome/answer/157179?hl=en",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "browser-reserved"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-chrome-windows-print-page",
+    "revision": 1,
+    "category": "browser",
+    "difficulty": "beginner",
+    "action": "現在のページの印刷画面を開く",
+    "description": "Windows版Google Chromeで現在のページの印刷画面を開く操作です。ブラウザーがキーを予約するため、回答欄に届かない場合は4択または自己申告を使用してください。JIS実機は未確認です。",
+    "platform": [
+      "Windows",
+      "Google Chrome"
+    ],
+    "appVersions": [
+      "Chrome（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "P",
+        "code": "KeyP",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Google",
+      "url": "https://support.google.com/chrome/answer/157179?hl=en",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "browser-reserved"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-chrome-windows-reload",
+    "revision": 1,
+    "category": "browser",
+    "difficulty": "beginner",
+    "action": "現在のページを再読み込みする",
+    "description": "Windows版Google Chromeで現在のページを再読み込みする操作です。ブラウザーがキーを予約するため、回答欄に届かない場合は4択または自己申告を使用してください。JIS実機は未確認です。",
+    "platform": [
+      "Windows",
+      "Google Chrome"
+    ],
+    "appVersions": [
+      "Chrome（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "R",
+        "code": "KeyR",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Google",
+      "url": "https://support.google.com/chrome/answer/157179?hl=en",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "browser-reserved"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-chrome-windows-incognito",
+    "revision": 1,
+    "category": "browser",
+    "difficulty": "intermediate",
+    "action": "シークレットウィンドウを開く",
+    "description": "Windows版Google Chromeでシークレットウィンドウを開く操作です。ブラウザーがキーを予約するため、回答欄に届かない場合は4択または自己申告を使用してください。JIS実機は未確認です。",
+    "platform": [
+      "Windows",
+      "Google Chrome"
+    ],
+    "appVersions": [
+      "Chrome（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "N",
+        "code": "KeyN",
+        "modifiers": [
+          "Ctrl",
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Google",
+      "url": "https://support.google.com/chrome/answer/157179?hl=en",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "browser-reserved"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-chrome-windows-reopen-tab",
+    "revision": 1,
+    "category": "browser",
+    "difficulty": "intermediate",
+    "action": "閉じたタブを閉じた順に再び開く",
+    "description": "Windows版Google Chromeで閉じたタブを閉じた順に再び開く操作です。ブラウザーがキーを予約するため、回答欄に届かない場合は4択または自己申告を使用してください。JIS実機は未確認です。",
+    "platform": [
+      "Windows",
+      "Google Chrome"
+    ],
+    "appVersions": [
+      "Chrome（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "T",
+        "code": "KeyT",
+        "modifiers": [
+          "Ctrl",
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Google",
+      "url": "https://support.google.com/chrome/answer/157179?hl=en",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "browser-reserved"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-chrome-windows-bookmark-bar",
+    "revision": 1,
+    "category": "browser",
+    "difficulty": "intermediate",
+    "action": "ブックマークバーの表示を切り替える",
+    "description": "Windows版Google Chromeでブックマークバーの表示を切り替える操作です。ブラウザーがキーを予約するため、回答欄に届かない場合は4択または自己申告を使用してください。JIS実機は未確認です。",
+    "platform": [
+      "Windows",
+      "Google Chrome"
+    ],
+    "appVersions": [
+      "Chrome（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "B",
+        "code": "KeyB",
+        "modifiers": [
+          "Ctrl",
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Google",
+      "url": "https://support.google.com/chrome/answer/157179?hl=en",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "browser-reserved"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-chrome-windows-bookmark-manager",
+    "revision": 1,
+    "category": "browser",
+    "difficulty": "intermediate",
+    "action": "ブックマークマネージャを開く",
+    "description": "Windows版Google Chromeでブックマークマネージャを開く操作です。ブラウザーがキーを予約するため、回答欄に届かない場合は4択または自己申告を使用してください。JIS実機は未確認です。",
+    "platform": [
+      "Windows",
+      "Google Chrome"
+    ],
+    "appVersions": [
+      "Chrome（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "O",
+        "code": "KeyO",
+        "modifiers": [
+          "Ctrl",
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Google",
+      "url": "https://support.google.com/chrome/answer/157179?hl=en",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "browser-reserved"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-chrome-windows-find-next",
+    "revision": 1,
+    "category": "browser",
+    "difficulty": "intermediate",
+    "action": "ページ内検索の次の一致箇所へ移動する",
+    "description": "Windows版Google Chromeでページ内検索の次の一致箇所へ移動する操作です。ブラウザーがキーを予約するため、回答欄に届かない場合は4択または自己申告を使用してください。JIS実機は未確認です。",
+    "platform": [
+      "Windows",
+      "Google Chrome"
+    ],
+    "appVersions": [
+      "Chrome（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "G",
+        "code": "KeyG",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Google",
+      "url": "https://support.google.com/chrome/answer/157179?hl=en",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "browser-reserved"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-chrome-windows-page-source",
+    "revision": 1,
+    "category": "browser",
+    "difficulty": "intermediate",
+    "action": "現在のページのソースを表示する",
+    "description": "Windows版Google Chromeで現在のページのソースを表示する操作です。ブラウザーがキーを予約するため、回答欄に届かない場合は4択または自己申告を使用してください。JIS実機は未確認です。",
+    "platform": [
+      "Windows",
+      "Google Chrome"
+    ],
+    "appVersions": [
+      "Chrome（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "U",
+        "code": "KeyU",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Google",
+      "url": "https://support.google.com/chrome/answer/157179?hl=en",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "browser-reserved"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-chrome-windows-save-page",
+    "revision": 1,
+    "category": "browser",
+    "difficulty": "intermediate",
+    "action": "現在のページの保存画面を開く",
+    "description": "Windows版Google Chromeで現在のページの保存画面を開く操作です。ブラウザーがキーを予約するため、回答欄に届かない場合は4択または自己申告を使用してください。JIS実機は未確認です。",
+    "platform": [
+      "Windows",
+      "Google Chrome"
+    ],
+    "appVersions": [
+      "Chrome（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "S",
+        "code": "KeyS",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Google",
+      "url": "https://support.google.com/chrome/answer/157179?hl=en",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "browser-reserved"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-chrome-windows-open-file",
+    "revision": 1,
+    "category": "browser",
+    "difficulty": "intermediate",
+    "action": "コンピューターのファイルを開く",
+    "description": "Windows版Google Chromeでコンピューターのファイルを開く操作です。ブラウザーがキーを予約するため、回答欄に届かない場合は4択または自己申告を使用してください。JIS実機は未確認です。",
+    "platform": [
+      "Windows",
+      "Google Chrome"
+    ],
+    "appVersions": [
+      "Chrome（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "O",
+        "code": "KeyO",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Google",
+      "url": "https://support.google.com/chrome/answer/157179?hl=en",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "browser-reserved"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-chrome-windows-fullscreen",
+    "revision": 1,
+    "category": "browser",
+    "difficulty": "intermediate",
+    "action": "全画面表示を切り替える",
+    "description": "Windows版Google Chromeで全画面表示を切り替える操作です。ブラウザーがキーを予約するため、回答欄に届かない場合は4択または自己申告を使用してください。JIS実機は未確認です。",
+    "platform": [
+      "Windows",
+      "Google Chrome"
+    ],
+    "appVersions": [
+      "Chrome（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "F11",
+        "code": "F11",
+        "modifiers": []
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Google",
+      "url": "https://support.google.com/chrome/answer/157179?hl=en",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "browser-reserved"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-chrome-windows-history-back",
+    "revision": 1,
+    "category": "browser",
+    "difficulty": "intermediate",
+    "action": "現在のタブで前の履歴ページへ戻る",
+    "description": "Windows版Google Chromeで現在のタブで前の履歴ページへ戻る操作です。ブラウザーがキーを予約するため、回答欄に届かない場合は4択または自己申告を使用してください。JIS実機は未確認です。",
+    "platform": [
+      "Windows",
+      "Google Chrome"
+    ],
+    "appVersions": [
+      "Chrome（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "ArrowLeft",
+        "code": "ArrowLeft",
+        "modifiers": [
+          "Alt"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Google",
+      "url": "https://support.google.com/chrome/answer/157179?hl=en",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "browser-reserved"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-chrome-windows-history-forward",
+    "revision": 1,
+    "category": "browser",
+    "difficulty": "intermediate",
+    "action": "現在のタブで次の履歴ページへ進む",
+    "description": "Windows版Google Chromeで現在のタブで次の履歴ページへ進む操作です。ブラウザーがキーを予約するため、回答欄に届かない場合は4択または自己申告を使用してください。JIS実機は未確認です。",
+    "platform": [
+      "Windows",
+      "Google Chrome"
+    ],
+    "appVersions": [
+      "Chrome（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "ArrowRight",
+        "code": "ArrowRight",
+        "modifiers": [
+          "Alt"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Google",
+      "url": "https://support.google.com/chrome/answer/157179?hl=en",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "browser-reserved"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-chrome-windows-home-page",
+    "revision": 1,
+    "category": "browser",
+    "difficulty": "intermediate",
+    "action": "現在のタブでホームページを開く",
+    "description": "Windows版Google Chromeで現在のタブでホームページを開く操作です。ブラウザーがキーを予約するため、回答欄に届かない場合は4択または自己申告を使用してください。JIS実機は未確認です。",
+    "platform": [
+      "Windows",
+      "Google Chrome"
+    ],
+    "appVersions": [
+      "Chrome（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "Home",
+        "code": "Home",
+        "modifiers": [
+          "Alt"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Google",
+      "url": "https://support.google.com/chrome/answer/157179?hl=en",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "browser-reserved"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-chrome-windows-close-window",
+    "revision": 1,
+    "category": "browser",
+    "difficulty": "advanced",
+    "action": "現在のウィンドウを閉じる",
+    "description": "Windows版Google Chromeで現在のウィンドウを閉じる操作です。ブラウザーがキーを予約するため、回答欄に届かない場合は4択または自己申告を使用してください。JIS実機は未確認です。",
+    "platform": [
+      "Windows",
+      "Google Chrome"
+    ],
+    "appVersions": [
+      "Chrome（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "W",
+        "code": "KeyW",
+        "modifiers": [
+          "Ctrl",
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Google",
+      "url": "https://support.google.com/chrome/answer/157179?hl=en",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "browser-reserved"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-chrome-windows-find-previous",
+    "revision": 1,
+    "category": "browser",
+    "difficulty": "advanced",
+    "action": "ページ内検索の前の一致箇所へ移動する",
+    "description": "Windows版Google Chromeでページ内検索の前の一致箇所へ移動する操作です。ブラウザーがキーを予約するため、回答欄に届かない場合は4択または自己申告を使用してください。JIS実機は未確認です。",
+    "platform": [
+      "Windows",
+      "Google Chrome"
+    ],
+    "appVersions": [
+      "Chrome（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "G",
+        "code": "KeyG",
+        "modifiers": [
+          "Ctrl",
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Google",
+      "url": "https://support.google.com/chrome/answer/157179?hl=en",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "browser-reserved"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-chrome-windows-developer-tools",
+    "revision": 1,
+    "category": "browser",
+    "difficulty": "advanced",
+    "action": "デベロッパーツールを開く",
+    "description": "Windows版Google Chromeでデベロッパーツールを開く操作です。ブラウザーがキーを予約するため、回答欄に届かない場合は4択または自己申告を使用してください。JIS実機は未確認です。",
+    "platform": [
+      "Windows",
+      "Google Chrome"
+    ],
+    "appVersions": [
+      "Chrome（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "J",
+        "code": "KeyJ",
+        "modifiers": [
+          "Ctrl",
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Google",
+      "url": "https://support.google.com/chrome/answer/157179?hl=en",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "browser-reserved"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-chrome-windows-clear-browsing-data",
+    "revision": 1,
+    "category": "browser",
+    "difficulty": "advanced",
+    "action": "閲覧履歴データの削除画面を開く",
+    "description": "Windows版Google Chromeで閲覧履歴データの削除画面を開く操作です。ブラウザーがキーを予約するため、回答欄に届かない場合は4択または自己申告を使用してください。JIS実機は未確認です。",
+    "platform": [
+      "Windows",
+      "Google Chrome"
+    ],
+    "appVersions": [
+      "Chrome（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "Delete",
+        "code": "Delete",
+        "modifiers": [
+          "Ctrl",
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Google",
+      "url": "https://support.google.com/chrome/answer/157179?hl=en",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "browser-reserved"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-chrome-windows-switch-user",
+    "revision": 1,
+    "category": "browser",
+    "difficulty": "advanced",
+    "action": "別ユーザーまたはゲストの画面を開く",
+    "description": "Windows版Google Chromeで別ユーザーまたはゲストの画面を開く操作です。ブラウザーがキーを予約するため、回答欄に届かない場合は4択または自己申告を使用してください。JIS実機は未確認です。",
+    "platform": [
+      "Windows",
+      "Google Chrome"
+    ],
+    "appVersions": [
+      "Chrome（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "M",
+        "code": "KeyM",
+        "modifiers": [
+          "Ctrl",
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Google",
+      "url": "https://support.google.com/chrome/answer/157179?hl=en",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "browser-reserved"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-chrome-windows-bookmark-all",
+    "revision": 1,
+    "category": "browser",
+    "difficulty": "advanced",
+    "action": "開いているすべてのタブをブックマークに保存する",
+    "description": "Windows版Google Chromeで開いているすべてのタブをブックマークに保存する操作です。ブラウザーがキーを予約するため、回答欄に届かない場合は4択または自己申告を使用してください。JIS実機は未確認です。",
+    "platform": [
+      "Windows",
+      "Google Chrome"
+    ],
+    "appVersions": [
+      "Chrome（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "D",
+        "code": "KeyD",
+        "modifiers": [
+          "Ctrl",
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Google",
+      "url": "https://support.google.com/chrome/answer/157179?hl=en",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "browser-reserved"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-chrome-windows-move-tab-left",
+    "revision": 1,
+    "category": "browser",
+    "difficulty": "advanced",
+    "action": "タブを左へ移動する",
+    "description": "Windows版Google Chromeでタブを左へ移動する操作です。ブラウザーがキーを予約するため、回答欄に届かない場合は4択または自己申告を使用してください。JIS実機は未確認です。",
+    "platform": [
+      "Windows",
+      "Google Chrome"
+    ],
+    "appVersions": [
+      "Chrome（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "PageUp",
+        "code": "PageUp",
+        "modifiers": [
+          "Ctrl",
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Google",
+      "url": "https://support.google.com/chrome/answer/157179?hl=en",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "browser-reserved"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-chrome-windows-move-tab-right",
+    "revision": 1,
+    "category": "browser",
+    "difficulty": "advanced",
+    "action": "タブを右へ移動する",
+    "description": "Windows版Google Chromeでタブを右へ移動する操作です。ブラウザーがキーを予約するため、回答欄に届かない場合は4択または自己申告を使用してください。JIS実機は未確認です。",
+    "platform": [
+      "Windows",
+      "Google Chrome"
+    ],
+    "appVersions": [
+      "Chrome（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "PageDown",
+        "code": "PageDown",
+        "modifiers": [
+          "Ctrl",
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Google",
+      "url": "https://support.google.com/chrome/answer/157179?hl=en",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "browser-reserved"
+    ],
+    "enabled": true
+  }
+]

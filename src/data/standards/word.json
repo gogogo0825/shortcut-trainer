@@ -1,0 +1,1155 @@
+[
+  {
+    "id": "word-bold",
+    "revision": 1,
+    "category": "word",
+    "difficulty": "beginner",
+    "action": "選択した文字を太字にする",
+    "description": "選択中の文字に太字の書式を適用します。",
+    "platform": [
+      "Windows",
+      "Microsoft Word"
+    ],
+    "appVersions": [
+      "Word for Windows（公式資料）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "B",
+        "code": "KeyB",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/word/keyboard-shortcuts-in-word",
+      "checkedAt": "2026-11-14T06:51:52.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "formatting",
+      "text"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "word-save",
+    "revision": 1,
+    "category": "word",
+    "difficulty": "beginner",
+    "action": "文書を保存する",
+    "description": "文書を保存する操作です。",
+    "platform": [
+      "Windows",
+      "Microsoft Word"
+    ],
+    "appVersions": [
+      "Word for Windows（公式資料）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "S",
+        "code": "KeyS",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/word/keyboard-shortcuts-in-word",
+      "checkedAt": "2026-11-14T06:51:52.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "word-copy",
+    "revision": 1,
+    "category": "word",
+    "difficulty": "beginner",
+    "action": "選択した文字をコピーする",
+    "description": "選択した文字をコピーする操作です。",
+    "platform": [
+      "Windows",
+      "Microsoft Word"
+    ],
+    "appVersions": [
+      "Word for Windows（公式資料）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "C",
+        "code": "KeyC",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/word/keyboard-shortcuts-in-word",
+      "checkedAt": "2026-11-14T06:51:52.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "word-italic",
+    "revision": 1,
+    "category": "word",
+    "difficulty": "beginner",
+    "action": "選択した文字を斜体にする",
+    "description": "選択した文字を斜体にする操作です。",
+    "platform": [
+      "Windows",
+      "Microsoft Word"
+    ],
+    "appVersions": [
+      "Word for Windows（公式資料）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "I",
+        "code": "KeyI",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/word/keyboard-shortcuts-in-word",
+      "checkedAt": "2026-11-14T06:51:52.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-word-windows-open",
+    "revision": 1,
+    "category": "word",
+    "difficulty": "beginner",
+    "action": "文書を開く",
+    "description": "Windows版Wordで文書を開く操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Word"
+    ],
+    "appVersions": [
+      "Word for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "O",
+        "code": "KeyO",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/word/keyboard-shortcuts-in-word?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-word-windows-new",
+    "revision": 1,
+    "category": "word",
+    "difficulty": "beginner",
+    "action": "新しい文書を作成する",
+    "description": "Windows版Wordで新しい文書を作成する操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Word"
+    ],
+    "appVersions": [
+      "Word for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "N",
+        "code": "KeyN",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/word/keyboard-shortcuts-in-word?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-word-windows-close",
+    "revision": 1,
+    "category": "word",
+    "difficulty": "beginner",
+    "action": "文書を閉じる",
+    "description": "Windows版Wordで文書を閉じる操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Word"
+    ],
+    "appVersions": [
+      "Word for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "W",
+        "code": "KeyW",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/word/keyboard-shortcuts-in-word?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-word-windows-cut",
+    "revision": 1,
+    "category": "word",
+    "difficulty": "beginner",
+    "action": "選択した内容を切り取る",
+    "description": "Windows版Wordで選択した内容を切り取る操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Word"
+    ],
+    "appVersions": [
+      "Word for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "X",
+        "code": "KeyX",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/word/keyboard-shortcuts-in-word?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-word-windows-paste",
+    "revision": 1,
+    "category": "word",
+    "difficulty": "beginner",
+    "action": "クリップボードの内容を貼り付ける",
+    "description": "Windows版Wordでクリップボードの内容を貼り付ける操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Word"
+    ],
+    "appVersions": [
+      "Word for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "V",
+        "code": "KeyV",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/word/keyboard-shortcuts-in-word?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-word-windows-undo",
+    "revision": 1,
+    "category": "word",
+    "difficulty": "beginner",
+    "action": "直前の操作を元に戻す",
+    "description": "Windows版Wordで直前の操作を元に戻す操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Word"
+    ],
+    "appVersions": [
+      "Word for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "Z",
+        "code": "KeyZ",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/word/keyboard-shortcuts-in-word?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-word-windows-underline",
+    "revision": 1,
+    "category": "word",
+    "difficulty": "intermediate",
+    "action": "文字に下線を適用する",
+    "description": "Windows版Wordで文字に下線を適用する操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Word"
+    ],
+    "appVersions": [
+      "Word for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "U",
+        "code": "KeyU",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/word/keyboard-shortcuts-in-word?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-word-windows-redo",
+    "revision": 1,
+    "category": "word",
+    "difficulty": "intermediate",
+    "action": "可能な場合に直前の操作をやり直す",
+    "description": "Windows版Wordで可能な場合に直前の操作をやり直す操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Word"
+    ],
+    "appVersions": [
+      "Word for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "Y",
+        "code": "KeyY",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/word/keyboard-shortcuts-in-word?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-word-windows-select-all",
+    "revision": 1,
+    "category": "word",
+    "difficulty": "intermediate",
+    "action": "文書全体を選択する",
+    "description": "Windows版Wordで文書全体を選択する操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Word"
+    ],
+    "appVersions": [
+      "Word for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "A",
+        "code": "KeyA",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/word/keyboard-shortcuts-in-word?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-word-windows-center",
+    "revision": 1,
+    "category": "word",
+    "difficulty": "intermediate",
+    "action": "段落を中央揃えにする",
+    "description": "Windows版Wordで段落を中央揃えにする操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Word"
+    ],
+    "appVersions": [
+      "Word for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "E",
+        "code": "KeyE",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/word/keyboard-shortcuts-in-word?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-word-windows-align-left",
+    "revision": 1,
+    "category": "word",
+    "difficulty": "intermediate",
+    "action": "段落を左揃えにする",
+    "description": "Windows版Wordで段落を左揃えにする操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Word"
+    ],
+    "appVersions": [
+      "Word for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "L",
+        "code": "KeyL",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/word/keyboard-shortcuts-in-word?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-word-windows-align-right",
+    "revision": 1,
+    "category": "word",
+    "difficulty": "intermediate",
+    "action": "段落を右揃えにする",
+    "description": "Windows版Wordで段落を右揃えにする操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Word"
+    ],
+    "appVersions": [
+      "Word for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "R",
+        "code": "KeyR",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/word/keyboard-shortcuts-in-word?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-word-windows-document-start",
+    "revision": 1,
+    "category": "word",
+    "difficulty": "intermediate",
+    "action": "文書の先頭へカーソルを移動する",
+    "description": "Windows版Wordで文書の先頭へカーソルを移動する操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Word"
+    ],
+    "appVersions": [
+      "Word for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "Home",
+        "code": "Home",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/word/keyboard-shortcuts-in-word?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-word-windows-document-end",
+    "revision": 1,
+    "category": "word",
+    "difficulty": "intermediate",
+    "action": "文書の末尾へカーソルを移動する",
+    "description": "Windows版Wordで文書の末尾へカーソルを移動する操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Word"
+    ],
+    "appVersions": [
+      "Word for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "End",
+        "code": "End",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/word/keyboard-shortcuts-in-word?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-word-windows-select-line-start",
+    "revision": 1,
+    "category": "word",
+    "difficulty": "intermediate",
+    "action": "カーソルから行頭まで選択する",
+    "description": "Windows版Wordでカーソルから行頭まで選択する操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Word"
+    ],
+    "appVersions": [
+      "Word for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "Home",
+        "code": "Home",
+        "modifiers": [
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/word/keyboard-shortcuts-in-word?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-word-windows-select-line-end",
+    "revision": 1,
+    "category": "word",
+    "difficulty": "intermediate",
+    "action": "カーソルから行末まで選択する",
+    "description": "Windows版Wordでカーソルから行末まで選択する操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Word"
+    ],
+    "appVersions": [
+      "Word for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "End",
+        "code": "End",
+        "modifiers": [
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/word/keyboard-shortcuts-in-word?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-word-windows-select-word-left",
+    "revision": 1,
+    "category": "word",
+    "difficulty": "intermediate",
+    "action": "左側の単語を選択する",
+    "description": "Windows版Wordで左側の単語を選択する操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Word"
+    ],
+    "appVersions": [
+      "Word for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "ArrowLeft",
+        "code": "ArrowLeft",
+        "modifiers": [
+          "Ctrl",
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/word/keyboard-shortcuts-in-word?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-word-windows-select-word-right",
+    "revision": 1,
+    "category": "word",
+    "difficulty": "intermediate",
+    "action": "右側の単語を選択する",
+    "description": "Windows版Wordで右側の単語を選択する操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Word"
+    ],
+    "appVersions": [
+      "Word for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "ArrowRight",
+        "code": "ArrowRight",
+        "modifiers": [
+          "Ctrl",
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/word/keyboard-shortcuts-in-word?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-word-windows-select-paragraph-start",
+    "revision": 1,
+    "category": "word",
+    "difficulty": "advanced",
+    "action": "現在位置から段落の先頭まで選択する",
+    "description": "Windows版Wordで現在位置から段落の先頭まで選択する操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Word"
+    ],
+    "appVersions": [
+      "Word for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "ArrowUp",
+        "code": "ArrowUp",
+        "modifiers": [
+          "Ctrl",
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/word/keyboard-shortcuts-in-word?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-word-windows-select-paragraph-end",
+    "revision": 1,
+    "category": "word",
+    "difficulty": "advanced",
+    "action": "現在位置から段落の末尾まで選択する",
+    "description": "Windows版Wordで現在位置から段落の末尾まで選択する操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Word"
+    ],
+    "appVersions": [
+      "Word for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "ArrowDown",
+        "code": "ArrowDown",
+        "modifiers": [
+          "Ctrl",
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/word/keyboard-shortcuts-in-word?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-word-windows-select-document-start",
+    "revision": 1,
+    "category": "word",
+    "difficulty": "advanced",
+    "action": "現在位置から文書の先頭まで選択する",
+    "description": "Windows版Wordで現在位置から文書の先頭まで選択する操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Word"
+    ],
+    "appVersions": [
+      "Word for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "Home",
+        "code": "Home",
+        "modifiers": [
+          "Ctrl",
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/word/keyboard-shortcuts-in-word?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-word-windows-select-document-end",
+    "revision": 1,
+    "category": "word",
+    "difficulty": "advanced",
+    "action": "現在位置から文書の末尾まで選択する",
+    "description": "Windows版Wordで現在位置から文書の末尾まで選択する操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Word"
+    ],
+    "appVersions": [
+      "Word for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "End",
+        "code": "End",
+        "modifiers": [
+          "Ctrl",
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/word/keyboard-shortcuts-in-word?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-word-windows-remove-indent",
+    "revision": 1,
+    "category": "word",
+    "difficulty": "advanced",
+    "action": "段落のインデントを解除する",
+    "description": "Windows版Wordで段落のインデントを解除する操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Word"
+    ],
+    "appVersions": [
+      "Word for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "M",
+        "code": "KeyM",
+        "modifiers": [
+          "Ctrl",
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/word/keyboard-shortcuts-in-word?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-word-windows-remove-hanging-indent",
+    "revision": 1,
+    "category": "word",
+    "difficulty": "advanced",
+    "action": "ぶら下げインデントを解除する",
+    "description": "Windows版Wordでぶら下げインデントを解除する操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Word"
+    ],
+    "appVersions": [
+      "Word for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "T",
+        "code": "KeyT",
+        "modifiers": [
+          "Ctrl",
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/word/keyboard-shortcuts-in-word?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-word-windows-normal-style",
+    "revision": 1,
+    "category": "word",
+    "difficulty": "advanced",
+    "action": "標準スタイルを適用する",
+    "description": "Windows版Wordで標準スタイルを適用する操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Word"
+    ],
+    "appVersions": [
+      "Word for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "N",
+        "code": "KeyN",
+        "modifiers": [
+          "Ctrl",
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/word/keyboard-shortcuts-in-word?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-word-windows-bullet-list",
+    "revision": 1,
+    "category": "word",
+    "difficulty": "advanced",
+    "action": "箇条書きを追加する",
+    "description": "Windows版Wordで箇条書きを追加する操作です。公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Word"
+    ],
+    "appVersions": [
+      "Word for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "L",
+        "code": "KeyL",
+        "modifiers": [
+          "Ctrl",
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/word/keyboard-shortcuts-in-word?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  }
+]

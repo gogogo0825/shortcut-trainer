@@ -1,0 +1,1173 @@
+[
+  {
+    "id": "windows-copy",
+    "revision": 1,
+    "category": "windows",
+    "difficulty": "beginner",
+    "action": "選択した項目をコピーする",
+    "description": "ファイルやテキストをクリップボードにコピーします。",
+    "platform": [
+      "Windows"
+    ],
+    "appVersions": [
+      "Windows 10 / Windows 11（公式資料）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "C",
+        "code": "KeyC",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "checkedAt": "2026-11-14T06:51:52.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "clipboard",
+      "basic"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "windows-paste",
+    "revision": 1,
+    "category": "windows",
+    "difficulty": "beginner",
+    "action": "選択位置に貼り付ける",
+    "description": "選択位置に貼り付ける操作です。",
+    "platform": [
+      "Windows"
+    ],
+    "appVersions": [
+      "Windows 10 / Windows 11（公式資料）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "V",
+        "code": "KeyV",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "checkedAt": "2026-11-14T06:51:52.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "windows-cut",
+    "revision": 1,
+    "category": "windows",
+    "difficulty": "beginner",
+    "action": "選択した項目を切り取る",
+    "description": "選択した項目を切り取る操作です。",
+    "platform": [
+      "Windows"
+    ],
+    "appVersions": [
+      "Windows 10 / Windows 11（公式資料）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "X",
+        "code": "KeyX",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "checkedAt": "2026-11-14T06:51:52.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "windows-undo",
+    "revision": 1,
+    "category": "windows",
+    "difficulty": "beginner",
+    "action": "操作を元に戻す",
+    "description": "操作を元に戻す操作です。",
+    "platform": [
+      "Windows"
+    ],
+    "appVersions": [
+      "Windows 10 / Windows 11（公式資料）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "Z",
+        "code": "KeyZ",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "checkedAt": "2026-11-14T06:51:52.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-windows-text-select-all-text",
+    "revision": 1,
+    "category": "windows",
+    "difficulty": "beginner",
+    "action": "文書内のすべての文字を選択する",
+    "description": "文字入力欄にフォーカスがあるとき、すべての文字を選択します。アプリにより動作は異なります。",
+    "platform": [
+      "Windows"
+    ],
+    "appVersions": [
+      "Windows 10 / Windows 11（公式資料）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "A",
+        "code": "KeyA",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "text-editing"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-windows-text-bold-text",
+    "revision": 1,
+    "category": "windows",
+    "difficulty": "beginner",
+    "action": "選択した文字に太字を適用する",
+    "description": "太字書式をサポートする編集アプリで使用します。アプリにより動作は異なります。",
+    "platform": [
+      "Windows"
+    ],
+    "appVersions": [
+      "Windows 10 / Windows 11（公式資料）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "B",
+        "code": "KeyB",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "text-editing"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-windows-text-find-text",
+    "revision": 1,
+    "category": "windows",
+    "difficulty": "beginner",
+    "action": "文字列を検索する",
+    "description": "検索をサポートするアプリで使用します。ブラウザーではページ内検索が開く場合があります。",
+    "platform": [
+      "Windows"
+    ],
+    "appVersions": [
+      "Windows 10 / Windows 11（公式資料）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "F",
+        "code": "KeyF",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "text-editing"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-windows-text-italic-text",
+    "revision": 1,
+    "category": "windows",
+    "difficulty": "beginner",
+    "action": "選択した文字に斜体を適用する",
+    "description": "斜体書式をサポートする編集アプリで使用します。アプリにより動作は異なります。",
+    "platform": [
+      "Windows"
+    ],
+    "appVersions": [
+      "Windows 10 / Windows 11（公式資料）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "I",
+        "code": "KeyI",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "text-editing"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-windows-text-underline-text",
+    "revision": 1,
+    "category": "windows",
+    "difficulty": "beginner",
+    "action": "選択した文字に下線を適用する",
+    "description": "下線書式をサポートする編集アプリで使用します。アプリにより動作は異なります。",
+    "platform": [
+      "Windows"
+    ],
+    "appVersions": [
+      "Windows 10 / Windows 11（公式資料）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "U",
+        "code": "KeyU",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "text-editing"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-windows-text-redo-typing",
+    "revision": 1,
+    "category": "windows",
+    "difficulty": "beginner",
+    "action": "元に戻した入力をやり直す",
+    "description": "対応する文字編集アプリでCtrl+Zによって元に戻した入力をやり直します。",
+    "platform": [
+      "Windows"
+    ],
+    "appVersions": [
+      "Windows 10 / Windows 11（公式資料）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "Y",
+        "code": "KeyY",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "text-editing"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-windows-text-previous-word",
+    "revision": 1,
+    "category": "windows",
+    "difficulty": "intermediate",
+    "action": "カーソルを前の単語の先頭へ移動する",
+    "description": "対応する文字編集欄で使用します。",
+    "platform": [
+      "Windows"
+    ],
+    "appVersions": [
+      "Windows 10 / Windows 11（公式資料）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "ArrowLeft",
+        "code": "ArrowLeft",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "text-editing"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-windows-text-next-word",
+    "revision": 1,
+    "category": "windows",
+    "difficulty": "intermediate",
+    "action": "カーソルを次の単語の先頭へ移動する",
+    "description": "対応する文字編集欄で使用します。",
+    "platform": [
+      "Windows"
+    ],
+    "appVersions": [
+      "Windows 10 / Windows 11（公式資料）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "ArrowRight",
+        "code": "ArrowRight",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "text-editing"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-windows-text-previous-paragraph",
+    "revision": 1,
+    "category": "windows",
+    "difficulty": "intermediate",
+    "action": "カーソルを前の段落の先頭へ移動する",
+    "description": "対応する文字編集欄で使用します。",
+    "platform": [
+      "Windows"
+    ],
+    "appVersions": [
+      "Windows 10 / Windows 11（公式資料）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "ArrowUp",
+        "code": "ArrowUp",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "text-editing"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-windows-text-next-paragraph",
+    "revision": 1,
+    "category": "windows",
+    "difficulty": "intermediate",
+    "action": "カーソルを次の段落の先頭へ移動する",
+    "description": "対応する文字編集欄で使用します。",
+    "platform": [
+      "Windows"
+    ],
+    "appVersions": [
+      "Windows 10 / Windows 11（公式資料）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "ArrowDown",
+        "code": "ArrowDown",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "text-editing"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-windows-text-document-start",
+    "revision": 1,
+    "category": "windows",
+    "difficulty": "intermediate",
+    "action": "カーソルを文書の先頭へ移動する",
+    "description": "対応する文字編集欄で使用します。",
+    "platform": [
+      "Windows"
+    ],
+    "appVersions": [
+      "Windows 10 / Windows 11（公式資料）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "Home",
+        "code": "Home",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "text-editing"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-windows-text-document-end",
+    "revision": 1,
+    "category": "windows",
+    "difficulty": "intermediate",
+    "action": "カーソルを文書の末尾へ移動する",
+    "description": "対応する文字編集欄で使用します。",
+    "platform": [
+      "Windows"
+    ],
+    "appVersions": [
+      "Windows 10 / Windows 11（公式資料）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "End",
+        "code": "End",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "text-editing"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-windows-text-delete-previous-word",
+    "revision": 1,
+    "category": "windows",
+    "difficulty": "intermediate",
+    "action": "カーソルの左の単語を削除する",
+    "description": "対応する文字編集欄で使用します。削除前に対象を確認してください。",
+    "platform": [
+      "Windows"
+    ],
+    "appVersions": [
+      "Windows 10 / Windows 11（公式資料）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "Backspace",
+        "code": "Backspace",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "text-editing"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-windows-text-delete-next-word",
+    "revision": 1,
+    "category": "windows",
+    "difficulty": "intermediate",
+    "action": "カーソルの右の単語を削除する",
+    "description": "対応する文字編集欄で使用します。削除前に対象を確認してください。",
+    "platform": [
+      "Windows"
+    ],
+    "appVersions": [
+      "Windows 10 / Windows 11（公式資料）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "Delete",
+        "code": "Delete",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "text-editing"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-windows-text-select-previous-character",
+    "revision": 1,
+    "category": "windows",
+    "difficulty": "intermediate",
+    "action": "カーソルの左の文字を選択する",
+    "description": "対応する文字編集欄で使用します。",
+    "platform": [
+      "Windows"
+    ],
+    "appVersions": [
+      "Windows 10 / Windows 11（公式資料）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "ArrowLeft",
+        "code": "ArrowLeft",
+        "modifiers": [
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "text-editing"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-windows-text-select-next-character",
+    "revision": 1,
+    "category": "windows",
+    "difficulty": "intermediate",
+    "action": "カーソルの右の文字を選択する",
+    "description": "対応する文字編集欄で使用します。",
+    "platform": [
+      "Windows"
+    ],
+    "appVersions": [
+      "Windows 10 / Windows 11（公式資料）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "ArrowRight",
+        "code": "ArrowRight",
+        "modifiers": [
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "text-editing"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-windows-text-select-line-start",
+    "revision": 1,
+    "category": "windows",
+    "difficulty": "intermediate",
+    "action": "カーソルから行頭まで選択する",
+    "description": "対応する文字編集欄で使用します。",
+    "platform": [
+      "Windows"
+    ],
+    "appVersions": [
+      "Windows 10 / Windows 11（公式資料）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "Home",
+        "code": "Home",
+        "modifiers": [
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "text-editing"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-windows-text-select-line-end",
+    "revision": 1,
+    "category": "windows",
+    "difficulty": "intermediate",
+    "action": "カーソルから行末まで選択する",
+    "description": "対応する文字編集欄で使用します。",
+    "platform": [
+      "Windows"
+    ],
+    "appVersions": [
+      "Windows 10 / Windows 11（公式資料）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "End",
+        "code": "End",
+        "modifiers": [
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "text-editing"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-windows-text-select-previous-word",
+    "revision": 1,
+    "category": "windows",
+    "difficulty": "advanced",
+    "action": "カーソルから前の単語を選択する",
+    "description": "対応する文字編集欄で使用します。",
+    "platform": [
+      "Windows"
+    ],
+    "appVersions": [
+      "Windows 10 / Windows 11（公式資料）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "ArrowLeft",
+        "code": "ArrowLeft",
+        "modifiers": [
+          "Ctrl",
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "text-editing"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-windows-text-select-next-word",
+    "revision": 1,
+    "category": "windows",
+    "difficulty": "advanced",
+    "action": "カーソルから次の単語を選択する",
+    "description": "対応する文字編集欄で使用します。",
+    "platform": [
+      "Windows"
+    ],
+    "appVersions": [
+      "Windows 10 / Windows 11（公式資料）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "ArrowRight",
+        "code": "ArrowRight",
+        "modifiers": [
+          "Ctrl",
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "text-editing"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-windows-text-select-previous-paragraph",
+    "revision": 1,
+    "category": "windows",
+    "difficulty": "advanced",
+    "action": "カーソルから前方向の段落を選択する",
+    "description": "対応する文字編集欄で使用します。",
+    "platform": [
+      "Windows"
+    ],
+    "appVersions": [
+      "Windows 10 / Windows 11（公式資料）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "ArrowUp",
+        "code": "ArrowUp",
+        "modifiers": [
+          "Ctrl",
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "text-editing"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-windows-text-select-next-paragraph",
+    "revision": 1,
+    "category": "windows",
+    "difficulty": "advanced",
+    "action": "カーソルから次方向の段落を選択する",
+    "description": "対応する文字編集欄で使用します。",
+    "platform": [
+      "Windows"
+    ],
+    "appVersions": [
+      "Windows 10 / Windows 11（公式資料）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "ArrowDown",
+        "code": "ArrowDown",
+        "modifiers": [
+          "Ctrl",
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "text-editing"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-windows-text-select-document-start",
+    "revision": 1,
+    "category": "windows",
+    "difficulty": "advanced",
+    "action": "カーソルから文書の先頭まで選択する",
+    "description": "対応する文字編集欄で使用します。",
+    "platform": [
+      "Windows"
+    ],
+    "appVersions": [
+      "Windows 10 / Windows 11（公式資料）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "Home",
+        "code": "Home",
+        "modifiers": [
+          "Ctrl",
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "text-editing"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-windows-text-select-document-end",
+    "revision": 1,
+    "category": "windows",
+    "difficulty": "advanced",
+    "action": "カーソルから文書の末尾まで選択する",
+    "description": "対応する文字編集欄で使用します。",
+    "platform": [
+      "Windows"
+    ],
+    "appVersions": [
+      "Windows 10 / Windows 11（公式資料）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "End",
+        "code": "End",
+        "modifiers": [
+          "Ctrl",
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "text-editing"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-windows-text-select-previous-line",
+    "revision": 1,
+    "category": "windows",
+    "difficulty": "advanced",
+    "action": "カーソルから前方向の行を選択する",
+    "description": "対応する文字編集欄で使用します。",
+    "platform": [
+      "Windows"
+    ],
+    "appVersions": [
+      "Windows 10 / Windows 11（公式資料）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "ArrowUp",
+        "code": "ArrowUp",
+        "modifiers": [
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "text-editing"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "standard-windows-text-select-next-line",
+    "revision": 1,
+    "category": "windows",
+    "difficulty": "advanced",
+    "action": "カーソルから次方向の行を選択する",
+    "description": "対応する文字編集欄で使用します。",
+    "platform": [
+      "Windows"
+    ],
+    "appVersions": [
+      "Windows 10 / Windows 11（公式資料）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "ArrowDown",
+        "code": "ArrowDown",
+        "modifiers": [
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "text-editing"
+    ],
+    "enabled": true
+  }
+]

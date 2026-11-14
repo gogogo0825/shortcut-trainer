@@ -1,0 +1,1143 @@
+[
+  {
+    "id": "excel-save",
+    "revision": 1,
+    "category": "excel",
+    "difficulty": "beginner",
+    "action": "ブックを保存する",
+    "description": "現在編集中のブックを保存します。",
+    "platform": [
+      "Windows",
+      "Microsoft Excel"
+    ],
+    "appVersions": [
+      "Excel for Windows（公式資料）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "S",
+        "code": "KeyS",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/excel/keyboard-shortcuts-in-excel",
+      "checkedAt": "2026-11-14T06:51:52.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "file",
+      "save"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "excel-copy",
+    "revision": 1,
+    "category": "excel",
+    "difficulty": "beginner",
+    "action": "選択したセルをコピーする",
+    "description": "選択したセルをコピーする操作です。",
+    "platform": [
+      "Windows",
+      "Microsoft Excel"
+    ],
+    "appVersions": [
+      "Excel for Windows（公式資料）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "C",
+        "code": "KeyC",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/excel/keyboard-shortcuts-in-excel",
+      "checkedAt": "2026-11-14T06:51:52.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "excel-paste",
+    "revision": 1,
+    "category": "excel",
+    "difficulty": "beginner",
+    "action": "コピーした内容を貼り付ける",
+    "description": "コピーした内容を貼り付ける操作です。",
+    "platform": [
+      "Windows",
+      "Microsoft Excel"
+    ],
+    "appVersions": [
+      "Excel for Windows（公式資料）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "V",
+        "code": "KeyV",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/excel/keyboard-shortcuts-in-excel",
+      "checkedAt": "2026-11-14T06:51:52.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "excel-undo",
+    "revision": 1,
+    "category": "excel",
+    "difficulty": "beginner",
+    "action": "直前の操作を元に戻す",
+    "description": "直前の操作を元に戻す操作です。",
+    "platform": [
+      "Windows",
+      "Microsoft Excel"
+    ],
+    "appVersions": [
+      "Excel for Windows（公式資料）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "Z",
+        "code": "KeyZ",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/accessibility/excel/keyboard-shortcuts-in-excel",
+      "checkedAt": "2026-11-14T06:51:52.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-excel-windows-close",
+    "revision": 1,
+    "category": "excel",
+    "difficulty": "beginner",
+    "action": "ブックを閉じる",
+    "description": "編集中のブックを閉じます。保存確認が表示される場合があります。 公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Excel"
+    ],
+    "appVersions": [
+      "Excel for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "W",
+        "code": "KeyW",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/excel/keyboard-shortcuts-in-excel?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-excel-windows-open",
+    "revision": 1,
+    "category": "excel",
+    "difficulty": "beginner",
+    "action": "ブックを開く",
+    "description": "Windows版Excelでブックを開きます。 公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Excel"
+    ],
+    "appVersions": [
+      "Excel for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "O",
+        "code": "KeyO",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/excel/keyboard-shortcuts-in-excel?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-excel-windows-cut",
+    "revision": 1,
+    "category": "excel",
+    "difficulty": "beginner",
+    "action": "選択したセルを切り取る",
+    "description": "選択範囲を切り取ります。 公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Excel"
+    ],
+    "appVersions": [
+      "Excel for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "X",
+        "code": "KeyX",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/excel/keyboard-shortcuts-in-excel?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-excel-windows-bold",
+    "revision": 1,
+    "category": "excel",
+    "difficulty": "beginner",
+    "action": "セルの太字書式を設定する",
+    "description": "選択したセルに太字書式を適用します。 公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Excel"
+    ],
+    "appVersions": [
+      "Excel for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "B",
+        "code": "KeyB",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/excel/keyboard-shortcuts-in-excel?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-excel-windows-delete-cell-content",
+    "revision": 1,
+    "category": "excel",
+    "difficulty": "beginner",
+    "action": "選択したセルの内容を消去する",
+    "description": "セルを選択した状態で内容を消去します。 公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Excel"
+    ],
+    "appVersions": [
+      "Excel for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "Delete",
+        "code": "Delete",
+        "modifiers": []
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/excel/keyboard-shortcuts-in-excel?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-excel-windows-edit-cell",
+    "revision": 1,
+    "category": "excel",
+    "difficulty": "beginner",
+    "action": "アクティブセルを編集する",
+    "description": "アクティブセルを編集し、内容の末尾に挿入位置を置きます。設定により数式バーに移る場合があります。 公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Excel"
+    ],
+    "appVersions": [
+      "Excel for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "F2",
+        "code": "F2",
+        "modifiers": []
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/excel/keyboard-shortcuts-in-excel?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-excel-windows-edge-left",
+    "revision": 1,
+    "category": "excel",
+    "difficulty": "intermediate",
+    "action": "データ領域の左端へ移動する",
+    "description": "ワークシートで現在のデータ領域の左端へ移動します。 公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Excel"
+    ],
+    "appVersions": [
+      "Excel for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "ArrowLeft",
+        "code": "ArrowLeft",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/excel/keyboard-shortcuts-in-excel?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-excel-windows-edge-right",
+    "revision": 1,
+    "category": "excel",
+    "difficulty": "intermediate",
+    "action": "データ領域の右端へ移動する",
+    "description": "ワークシートで現在のデータ領域の右端へ移動します。 公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Excel"
+    ],
+    "appVersions": [
+      "Excel for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "ArrowRight",
+        "code": "ArrowRight",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/excel/keyboard-shortcuts-in-excel?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-excel-windows-edge-up",
+    "revision": 1,
+    "category": "excel",
+    "difficulty": "intermediate",
+    "action": "データ領域の上端へ移動する",
+    "description": "ワークシートで現在のデータ領域の上端へ移動します。 公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Excel"
+    ],
+    "appVersions": [
+      "Excel for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "ArrowUp",
+        "code": "ArrowUp",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/excel/keyboard-shortcuts-in-excel?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-excel-windows-edge-down",
+    "revision": 1,
+    "category": "excel",
+    "difficulty": "intermediate",
+    "action": "データ領域の下端へ移動する",
+    "description": "ワークシートで現在のデータ領域の下端へ移動します。 公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Excel"
+    ],
+    "appVersions": [
+      "Excel for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "ArrowDown",
+        "code": "ArrowDown",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/excel/keyboard-shortcuts-in-excel?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-excel-windows-sheet-start",
+    "revision": 1,
+    "category": "excel",
+    "difficulty": "intermediate",
+    "action": "ワークシートの先頭へ移動する",
+    "description": "ワークシートの先頭セルへ移動します。 公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Excel"
+    ],
+    "appVersions": [
+      "Excel for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "Home",
+        "code": "Home",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/excel/keyboard-shortcuts-in-excel?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-excel-windows-sheet-last-cell",
+    "revision": 1,
+    "category": "excel",
+    "difficulty": "intermediate",
+    "action": "ワークシートの最後の使用セルへ移動する",
+    "description": "最も下の使用行と最も右の使用列が交わるセルへ移動します。 公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Excel"
+    ],
+    "appVersions": [
+      "Excel for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "End",
+        "code": "End",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/excel/keyboard-shortcuts-in-excel?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-excel-windows-next-sheet",
+    "revision": 1,
+    "category": "excel",
+    "difficulty": "intermediate",
+    "action": "次のワークシートへ移動する",
+    "description": "ブック内の次のシートに移動します。 公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Excel"
+    ],
+    "appVersions": [
+      "Excel for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "PageDown",
+        "code": "PageDown",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/excel/keyboard-shortcuts-in-excel?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-excel-windows-previous-sheet",
+    "revision": 1,
+    "category": "excel",
+    "difficulty": "intermediate",
+    "action": "前のワークシートへ移動する",
+    "description": "ブック内の前のシートに移動します。 公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Excel"
+    ],
+    "appVersions": [
+      "Excel for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "PageUp",
+        "code": "PageUp",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/excel/keyboard-shortcuts-in-excel?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-excel-windows-screen-right",
+    "revision": 1,
+    "category": "excel",
+    "difficulty": "intermediate",
+    "action": "ワークシートを右へ1画面移動する",
+    "description": "ワークシート上で右へ1画面移動します。 公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Excel"
+    ],
+    "appVersions": [
+      "Excel for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "PageDown",
+        "code": "PageDown",
+        "modifiers": [
+          "Alt"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/excel/keyboard-shortcuts-in-excel?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-excel-windows-screen-left",
+    "revision": 1,
+    "category": "excel",
+    "difficulty": "intermediate",
+    "action": "ワークシートを左へ1画面移動する",
+    "description": "ワークシート上で左へ1画面移動します。 公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Excel"
+    ],
+    "appVersions": [
+      "Excel for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "PageUp",
+        "code": "PageUp",
+        "modifiers": [
+          "Alt"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/excel/keyboard-shortcuts-in-excel?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-excel-windows-hide-rows",
+    "revision": 1,
+    "category": "excel",
+    "difficulty": "intermediate",
+    "action": "選択した行を非表示にする",
+    "description": "選択した行を非表示にします。JIS配列での操作は実機確認が必要です。 公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Excel"
+    ],
+    "appVersions": [
+      "Excel for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "9",
+        "code": "Digit9",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/excel/keyboard-shortcuts-in-excel?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-excel-windows-hide-columns",
+    "revision": 1,
+    "category": "excel",
+    "difficulty": "intermediate",
+    "action": "選択した列を非表示にする",
+    "description": "選択した列を非表示にします。JIS配列での操作は実機確認が必要です。 公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Excel"
+    ],
+    "appVersions": [
+      "Excel for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "0",
+        "code": "Digit0",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/excel/keyboard-shortcuts-in-excel?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-excel-windows-select-used-range",
+    "revision": 1,
+    "category": "excel",
+    "difficulty": "advanced",
+    "action": "最後の使用セルまで選択範囲を広げる",
+    "description": "選択範囲をワークシートの右下の最後の使用セルまで広げます。 公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Excel"
+    ],
+    "appVersions": [
+      "Excel for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "End",
+        "code": "End",
+        "modifiers": [
+          "Ctrl",
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/excel/keyboard-shortcuts-in-excel?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-excel-windows-format-cells",
+    "revision": 1,
+    "category": "excel",
+    "difficulty": "advanced",
+    "action": "セルの書式設定を開く",
+    "description": "セルの書式設定ダイアログを開きます。JIS配列での操作は実機確認が必要です。 公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Excel"
+    ],
+    "appVersions": [
+      "Excel for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "1",
+        "code": "Digit1",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/excel/keyboard-shortcuts-in-excel?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-excel-windows-insert-note",
+    "revision": 1,
+    "category": "excel",
+    "difficulty": "advanced",
+    "action": "セルのメモを挿入または編集する",
+    "description": "アクティブセルのメモを挿入または編集します。 公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Excel"
+    ],
+    "appVersions": [
+      "Excel for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "F2",
+        "code": "F2",
+        "modifiers": [
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/excel/keyboard-shortcuts-in-excel?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-excel-windows-format-font",
+    "revision": 1,
+    "category": "excel",
+    "difficulty": "advanced",
+    "action": "セルの書式設定でフォントを設定する",
+    "description": "セルの書式設定ダイアログでフォントを設定します。 公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Excel"
+    ],
+    "appVersions": [
+      "Excel for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "F",
+        "code": "KeyF",
+        "modifiers": [
+          "Ctrl",
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/excel/keyboard-shortcuts-in-excel?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-excel-windows-toggle-ribbon",
+    "revision": 1,
+    "category": "excel",
+    "difficulty": "advanced",
+    "action": "リボンを展開または最小化する",
+    "description": "Excelのリボンの展開状態を切り替えます。 公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Excel"
+    ],
+    "appVersions": [
+      "Excel for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "F1",
+        "code": "F1",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/excel/keyboard-shortcuts-in-excel?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-excel-windows-validation-list",
+    "revision": 1,
+    "category": "excel",
+    "difficulty": "advanced",
+    "action": "セルの入力規則の候補一覧を開く",
+    "description": "入力規則のリストが設定されたセルで使用します。 公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Excel"
+    ],
+    "appVersions": [
+      "Excel for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "ArrowDown",
+        "code": "ArrowDown",
+        "modifiers": [
+          "Alt"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/excel/keyboard-shortcuts-in-excel?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-excel-windows-review-tab",
+    "revision": 1,
+    "category": "excel",
+    "difficulty": "advanced",
+    "action": "リボンの校閲タブを開く",
+    "description": "Excel for Windowsのリボンで校閲タブを開きます。言語やバージョンによりキーの割当てが異なる場合があります。 公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Excel"
+    ],
+    "appVersions": [
+      "Excel for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "R",
+        "code": "KeyR",
+        "modifiers": [
+          "Alt"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/excel/keyboard-shortcuts-in-excel?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-excel-windows-view-tab",
+    "revision": 1,
+    "category": "excel",
+    "difficulty": "advanced",
+    "action": "リボンの表示タブを開く",
+    "description": "Excel for Windowsのリボンで表示タブを開きます。言語やバージョンによりキーの割当てが異なる場合があります。 公式資料はUS配列を前提とします。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Microsoft Excel"
+    ],
+    "appVersions": [
+      "Excel for Windows（公式資料）"
+    ],
+    "layout": "us",
+    "steps": [
+      {
+        "key": "W",
+        "code": "KeyW",
+        "modifiers": [
+          "Alt"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-gb/accessibility/excel/keyboard-shortcuts-in-excel?nochrome=true",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  }
+]

@@ -1,0 +1,1155 @@
+[
+  {
+    "id": "vscode-command-palette",
+    "revision": 1,
+    "category": "vscode",
+    "difficulty": "beginner",
+    "action": "コマンドパレットを開く",
+    "description": "利用可能なコマンドを検索して実行します。",
+    "platform": [
+      "Windows",
+      "Visual Studio Code"
+    ],
+    "appVersions": [
+      "Visual Studio Code（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "P",
+        "code": "KeyP",
+        "modifiers": [
+          "Ctrl",
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://code.visualstudio.com/docs/editing/getting-started/tips-and-tricks",
+      "checkedAt": "2026-11-14T06:51:52.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [
+      "commands",
+      "navigation"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "vscode-find",
+    "revision": 1,
+    "category": "vscode",
+    "difficulty": "beginner",
+    "action": "エディター内を検索する",
+    "description": "エディター内を検索する操作です。",
+    "platform": [
+      "Windows",
+      "Visual Studio Code"
+    ],
+    "appVersions": [
+      "Visual Studio Code（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "F",
+        "code": "KeyF",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://code.visualstudio.com/docs/reference/default-keybindings",
+      "checkedAt": "2026-11-08T00:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "vscode-undo",
+    "revision": 1,
+    "category": "vscode",
+    "difficulty": "beginner",
+    "action": "操作を元に戻す",
+    "description": "操作を元に戻す操作です。",
+    "platform": [
+      "Windows",
+      "Visual Studio Code"
+    ],
+    "appVersions": [
+      "Visual Studio Code（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "Z",
+        "code": "KeyZ",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://code.visualstudio.com/docs/reference/default-keybindings",
+      "checkedAt": "2026-11-08T00:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "vscode-select-line",
+    "revision": 1,
+    "category": "vscode",
+    "difficulty": "beginner",
+    "action": "現在の行を選択する",
+    "description": "現在の行を選択する操作です。",
+    "platform": [
+      "Windows",
+      "Visual Studio Code"
+    ],
+    "appVersions": [
+      "Visual Studio Code（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "L",
+        "code": "KeyL",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://code.visualstudio.com/docs/reference/default-keybindings",
+      "checkedAt": "2026-11-08T00:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-vscode-windows-cut",
+    "revision": 1,
+    "category": "vscode",
+    "difficulty": "beginner",
+    "action": "選択範囲または現在行を切り取る",
+    "description": "選択範囲がない場合は行を切り取ります。 VS Codeの既定キー割り当てを対象とし、ユーザー設定や拡張機能で変更できます。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Visual Studio Code"
+    ],
+    "appVersions": [
+      "Visual Studio Code（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "X",
+        "code": "KeyX",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://code.visualstudio.com/docs/reference/default-keybindings",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-vscode-windows-copy",
+    "revision": 1,
+    "category": "vscode",
+    "difficulty": "beginner",
+    "action": "選択範囲または現在行をコピーする",
+    "description": "選択範囲がない場合は行をコピーします。 VS Codeの既定キー割り当てを対象とし、ユーザー設定や拡張機能で変更できます。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Visual Studio Code"
+    ],
+    "appVersions": [
+      "Visual Studio Code（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "C",
+        "code": "KeyC",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://code.visualstudio.com/docs/reference/default-keybindings",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-vscode-windows-paste",
+    "revision": 1,
+    "category": "vscode",
+    "difficulty": "beginner",
+    "action": "クリップボードの内容を貼り付ける",
+    "description": "エディターで使用します。 VS Codeの既定キー割り当てを対象とし、ユーザー設定や拡張機能で変更できます。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Visual Studio Code"
+    ],
+    "appVersions": [
+      "Visual Studio Code（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "V",
+        "code": "KeyV",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://code.visualstudio.com/docs/reference/default-keybindings",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-vscode-windows-redo",
+    "revision": 1,
+    "category": "vscode",
+    "difficulty": "beginner",
+    "action": "元に戻した操作をやり直す",
+    "description": "エディターで使用します。 VS Codeの既定キー割り当てを対象とし、ユーザー設定や拡張機能で変更できます。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Visual Studio Code"
+    ],
+    "appVersions": [
+      "Visual Studio Code（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "Y",
+        "code": "KeyY",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://code.visualstudio.com/docs/reference/default-keybindings",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-vscode-windows-replace",
+    "revision": 1,
+    "category": "vscode",
+    "difficulty": "beginner",
+    "action": "置換を開始する",
+    "description": "エディター内の置換を開始します。 VS Codeの既定キー割り当てを対象とし、ユーザー設定や拡張機能で変更できます。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Visual Studio Code"
+    ],
+    "appVersions": [
+      "Visual Studio Code（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "H",
+        "code": "KeyH",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://code.visualstudio.com/docs/reference/default-keybindings",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-vscode-windows-insert-line-below",
+    "revision": 1,
+    "category": "vscode",
+    "difficulty": "beginner",
+    "action": "現在行の下に行を挿入する",
+    "description": "エディターで使用します。 VS Codeの既定キー割り当てを対象とし、ユーザー設定や拡張機能で変更できます。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Visual Studio Code"
+    ],
+    "appVersions": [
+      "Visual Studio Code（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "Enter",
+        "code": "Enter",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://code.visualstudio.com/docs/reference/default-keybindings",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-vscode-windows-insert-line-above",
+    "revision": 1,
+    "category": "vscode",
+    "difficulty": "intermediate",
+    "action": "現在行の上に行を挿入する",
+    "description": "エディターで使用します。 VS Codeの既定キー割り当てを対象とし、ユーザー設定や拡張機能で変更できます。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Visual Studio Code"
+    ],
+    "appVersions": [
+      "Visual Studio Code（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "Enter",
+        "code": "Enter",
+        "modifiers": [
+          "Ctrl",
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://code.visualstudio.com/docs/reference/default-keybindings",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-vscode-windows-move-line-up",
+    "revision": 1,
+    "category": "vscode",
+    "difficulty": "intermediate",
+    "action": "現在行を上へ移動する",
+    "description": "エディターで使用します。 VS Codeの既定キー割り当てを対象とし、ユーザー設定や拡張機能で変更できます。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Visual Studio Code"
+    ],
+    "appVersions": [
+      "Visual Studio Code（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "ArrowUp",
+        "code": "ArrowUp",
+        "modifiers": [
+          "Alt"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://code.visualstudio.com/docs/reference/default-keybindings",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-vscode-windows-move-line-down",
+    "revision": 1,
+    "category": "vscode",
+    "difficulty": "intermediate",
+    "action": "現在行を下へ移動する",
+    "description": "エディターで使用します。 VS Codeの既定キー割り当てを対象とし、ユーザー設定や拡張機能で変更できます。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Visual Studio Code"
+    ],
+    "appVersions": [
+      "Visual Studio Code（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "ArrowDown",
+        "code": "ArrowDown",
+        "modifiers": [
+          "Alt"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://code.visualstudio.com/docs/reference/default-keybindings",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-vscode-windows-select-next-match",
+    "revision": 1,
+    "category": "vscode",
+    "difficulty": "intermediate",
+    "action": "次に一致する文字列を選択範囲へ追加する",
+    "description": "現在の選択範囲を使います。 VS Codeの既定キー割り当てを対象とし、ユーザー設定や拡張機能で変更できます。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Visual Studio Code"
+    ],
+    "appVersions": [
+      "Visual Studio Code（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "D",
+        "code": "KeyD",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://code.visualstudio.com/docs/reference/default-keybindings",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-vscode-windows-cursor-undo",
+    "revision": 1,
+    "category": "vscode",
+    "difficulty": "intermediate",
+    "action": "直前のカーソル操作を元に戻す",
+    "description": "エディターで使用します。 VS Codeの既定キー割り当てを対象とし、ユーザー設定や拡張機能で変更できます。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Visual Studio Code"
+    ],
+    "appVersions": [
+      "Visual Studio Code（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "U",
+        "code": "KeyU",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://code.visualstudio.com/docs/reference/default-keybindings",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-vscode-windows-file-start",
+    "revision": 1,
+    "category": "vscode",
+    "difficulty": "intermediate",
+    "action": "ファイルの先頭へ移動する",
+    "description": "エディターで使用します。 VS Codeの既定キー割り当てを対象とし、ユーザー設定や拡張機能で変更できます。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Visual Studio Code"
+    ],
+    "appVersions": [
+      "Visual Studio Code（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "Home",
+        "code": "Home",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://code.visualstudio.com/docs/reference/default-keybindings",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-vscode-windows-file-end",
+    "revision": 1,
+    "category": "vscode",
+    "difficulty": "intermediate",
+    "action": "ファイルの末尾へ移動する",
+    "description": "エディターで使用します。 VS Codeの既定キー割り当てを対象とし、ユーザー設定や拡張機能で変更できます。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Visual Studio Code"
+    ],
+    "appVersions": [
+      "Visual Studio Code（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "End",
+        "code": "End",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://code.visualstudio.com/docs/reference/default-keybindings",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-vscode-windows-scroll-line-up",
+    "revision": 1,
+    "category": "vscode",
+    "difficulty": "intermediate",
+    "action": "エディターを1行上へスクロールする",
+    "description": "エディターで使用します。 VS Codeの既定キー割り当てを対象とし、ユーザー設定や拡張機能で変更できます。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Visual Studio Code"
+    ],
+    "appVersions": [
+      "Visual Studio Code（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "ArrowUp",
+        "code": "ArrowUp",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://code.visualstudio.com/docs/reference/default-keybindings",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-vscode-windows-scroll-line-down",
+    "revision": 1,
+    "category": "vscode",
+    "difficulty": "intermediate",
+    "action": "エディターを1行下へスクロールする",
+    "description": "エディターで使用します。 VS Codeの既定キー割り当てを対象とし、ユーザー設定や拡張機能で変更できます。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Visual Studio Code"
+    ],
+    "appVersions": [
+      "Visual Studio Code（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "ArrowDown",
+        "code": "ArrowDown",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://code.visualstudio.com/docs/reference/default-keybindings",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-vscode-windows-word-wrap",
+    "revision": 1,
+    "category": "vscode",
+    "difficulty": "intermediate",
+    "action": "行の折り返しを切り替える",
+    "description": "エディターで使用します。 VS Codeの既定キー割り当てを対象とし、ユーザー設定や拡張機能で変更できます。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Visual Studio Code"
+    ],
+    "appVersions": [
+      "Visual Studio Code（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "Z",
+        "code": "KeyZ",
+        "modifiers": [
+          "Alt"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://code.visualstudio.com/docs/reference/default-keybindings",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-vscode-windows-copy-line-up",
+    "revision": 1,
+    "category": "vscode",
+    "difficulty": "intermediate",
+    "action": "現在行を上へコピーする",
+    "description": "Windows版の既定キーです。 VS Codeの既定キー割り当てを対象とし、ユーザー設定や拡張機能で変更できます。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Visual Studio Code"
+    ],
+    "appVersions": [
+      "Visual Studio Code（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "ArrowUp",
+        "code": "ArrowUp",
+        "modifiers": [
+          "Shift",
+          "Alt"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://code.visualstudio.com/docs/reference/default-keybindings",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-vscode-windows-copy-line-down",
+    "revision": 1,
+    "category": "vscode",
+    "difficulty": "intermediate",
+    "action": "現在行を下へコピーする",
+    "description": "Windows版の既定キーです。 VS Codeの既定キー割り当てを対象とし、ユーザー設定や拡張機能で変更できます。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Visual Studio Code"
+    ],
+    "appVersions": [
+      "Visual Studio Code（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "ArrowDown",
+        "code": "ArrowDown",
+        "modifiers": [
+          "Shift",
+          "Alt"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://code.visualstudio.com/docs/reference/default-keybindings",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-vscode-windows-select-all-matches",
+    "revision": 1,
+    "category": "vscode",
+    "difficulty": "advanced",
+    "action": "現在の選択範囲に一致する箇所をすべて選択する",
+    "description": "エディターで選択範囲を指定して使用します。 VS Codeの既定キー割り当てを対象とし、ユーザー設定や拡張機能で変更できます。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Visual Studio Code"
+    ],
+    "appVersions": [
+      "Visual Studio Code（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "L",
+        "code": "KeyL",
+        "modifiers": [
+          "Ctrl",
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://code.visualstudio.com/docs/reference/default-keybindings",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-vscode-windows-select-current-word",
+    "revision": 1,
+    "category": "vscode",
+    "difficulty": "advanced",
+    "action": "現在の単語に一致する箇所をすべて選択する",
+    "description": "エディターで使用します。 VS Codeの既定キー割り当てを対象とし、ユーザー設定や拡張機能で変更できます。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Visual Studio Code"
+    ],
+    "appVersions": [
+      "Visual Studio Code（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "F2",
+        "code": "F2",
+        "modifiers": [
+          "Ctrl"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://code.visualstudio.com/docs/reference/default-keybindings",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-vscode-windows-cursor-above",
+    "revision": 1,
+    "category": "vscode",
+    "difficulty": "advanced",
+    "action": "上の行にカーソルを追加する",
+    "description": "Windows版の既定キーです。グラフィックスドライバー等と競合する場合があります。 VS Codeの既定キー割り当てを対象とし、ユーザー設定や拡張機能で変更できます。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Visual Studio Code"
+    ],
+    "appVersions": [
+      "Visual Studio Code（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "ArrowUp",
+        "code": "ArrowUp",
+        "modifiers": [
+          "Ctrl",
+          "Alt"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://code.visualstudio.com/docs/reference/default-keybindings",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-vscode-windows-cursor-below",
+    "revision": 1,
+    "category": "vscode",
+    "difficulty": "advanced",
+    "action": "下の行にカーソルを追加する",
+    "description": "Windows版の既定キーです。グラフィックスドライバー等と競合する場合があります。 VS Codeの既定キー割り当てを対象とし、ユーザー設定や拡張機能で変更できます。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Visual Studio Code"
+    ],
+    "appVersions": [
+      "Visual Studio Code（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "ArrowDown",
+        "code": "ArrowDown",
+        "modifiers": [
+          "Ctrl",
+          "Alt"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://code.visualstudio.com/docs/reference/default-keybindings",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-vscode-windows-cursor-line-ends",
+    "revision": 1,
+    "category": "vscode",
+    "difficulty": "advanced",
+    "action": "選択した各行の末尾にカーソルを挿入する",
+    "description": "エディターで複数行を選択して使用します。 VS Codeの既定キー割り当てを対象とし、ユーザー設定や拡張機能で変更できます。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Visual Studio Code"
+    ],
+    "appVersions": [
+      "Visual Studio Code（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "I",
+        "code": "KeyI",
+        "modifiers": [
+          "Shift",
+          "Alt"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://code.visualstudio.com/docs/reference/default-keybindings",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-vscode-windows-block-comment",
+    "revision": 1,
+    "category": "vscode",
+    "difficulty": "advanced",
+    "action": "ブロックコメントを切り替える",
+    "description": "言語機能とエディターの状態に依存します。 VS Codeの既定キー割り当てを対象とし、ユーザー設定や拡張機能で変更できます。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Visual Studio Code"
+    ],
+    "appVersions": [
+      "Visual Studio Code（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "A",
+        "code": "KeyA",
+        "modifiers": [
+          "Shift",
+          "Alt"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://code.visualstudio.com/docs/reference/default-keybindings",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-vscode-windows-select-find-matches",
+    "revision": 1,
+    "category": "vscode",
+    "difficulty": "advanced",
+    "action": "検索結果の一致箇所をすべて選択する",
+    "description": "検索ウィジェットを使用します。 VS Codeの既定キー割り当てを対象とし、ユーザー設定や拡張機能で変更できます。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Visual Studio Code"
+    ],
+    "appVersions": [
+      "Visual Studio Code（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "Enter",
+        "code": "Enter",
+        "modifiers": [
+          "Alt"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://code.visualstudio.com/docs/reference/default-keybindings",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  },
+  {
+    "id": "standard-vscode-windows-delete-line",
+    "revision": 1,
+    "category": "vscode",
+    "difficulty": "advanced",
+    "action": "現在行を削除する",
+    "description": "エディターで使用します。 VS Codeの既定キー割り当てを対象とし、ユーザー設定や拡張機能で変更できます。JIS実機は未確認です。ブラウザーやOSで取得できない場合は4択または自己申告を使用してください。",
+    "platform": [
+      "Windows",
+      "Visual Studio Code"
+    ],
+    "appVersions": [
+      "Visual Studio Code（公式資料に記載のWindows版）"
+    ],
+    "layout": "any",
+    "steps": [
+      {
+        "key": "K",
+        "code": "KeyK",
+        "modifiers": [
+          "Ctrl",
+          "Shift"
+        ]
+      }
+    ],
+    "gradingModes": [
+      "keyboard",
+      "multiple_choice",
+      "self_assessment"
+    ],
+    "source": {
+      "publisher": "Microsoft",
+      "url": "https://code.visualstudio.com/docs/reference/default-keybindings",
+      "checkedAt": "2026-11-08T14:00:00.000Z"
+    },
+    "verification": "docs_checked",
+    "tags": [],
+    "enabled": true
+  }
+]
