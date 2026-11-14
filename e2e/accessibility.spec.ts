@@ -72,6 +72,67 @@ test("light and dark home meet automated accessibility checks", async ({ page })
   await checkAccessibility(page);
 });
 
+test("theme changes keep card and button colors accessible during transitions", async ({ page }) => {
+  await page.emulateMedia({ colorScheme: "light" });
+  await page.goto("/");
+  await expect(page.locator("html")).toHaveAttribute("data-theme", "light");
+  await page.locator(".surface-card, .button-secondary, nav a").evaluateAll((elements) => {
+    for (const element of elements) {
+      if (getComputedStyle(element).transitionDuration !== "0s" && element instanceof HTMLElement) {
+        element.style.transitionDuration = "4s";
+      }
+    }
+  });
+
+  const card = page.locator('a[href="#/practice?category=windows"]');
+  const toggle = page.locator("button.button-secondary");
+  for (const [label, theme, background, ink] of [
+    ["ダークモードに切替", "dark", "rgb(17, 28, 49)", "rgb(229, 234, 243)"],
+    ["ライトモードに切替", "light", "rgb(255, 255, 255)", "rgb(23, 32, 51)"],
+  ] as const) {
+    await page.getByRole("button", { name: label }).click();
+    await expect(page.locator("html")).toHaveAttribute("data-theme", theme);
+    const styles = await card.evaluate((element) => {
+      const style = getComputedStyle(element);
+      return { background: style.backgroundColor, color: style.color };
+    });
+    expect(styles).toEqual({ background, color: ink });
+    expect(await toggle.evaluate((element) => getComputedStyle(element).color)).toBe(ink);
+    await checkAccessibility(page);
+    await card.hover();
+    const contrasts = await card.evaluate((element) => {
+      const ratio = (foreground: string, background: string) => {
+        const luminance = (color: string) => {
+          const channels = color.match(/\d+/g);
+          if (!channels || channels.length < 3) throw new Error(`Unexpected color: ${color}`);
+          const [red, green, blue] = channels.slice(0, 3).map((channel) => {
+            const value = Number(channel) / 255;
+            return value <= 0.04045 ? value / 12.92 : ((value + 0.055) / 1.055) ** 2.4;
+          });
+          return 0.2126 * red + 0.7152 * green + 0.0722 * blue;
+        };
+        const values = [luminance(foreground), luminance(background)].sort((a, b) => b - a);
+        return (values[0] + 0.05) / (values[1] + 0.05);
+      };
+      const background = getComputedStyle(element).backgroundColor;
+      return [...element.querySelectorAll("h3, p, :scope > span")].map((child) =>
+        ratio(getComputedStyle(child).color, background),
+      );
+    });
+    expect(contrasts).toHaveLength(3);
+    for (const contrast of contrasts) expect(contrast).toBeGreaterThanOrEqual(4.5);
+    await checkAccessibility(page);
+    await page.getByRole("link", { name: "ヘルプ", exact: true }).focus();
+    await page.keyboard.press("Tab");
+    await expect(toggle).toBeFocused();
+    expect(await toggle.evaluate((element) => element.matches(":focus-visible"))).toBe(true);
+    await expect(toggle).toHaveCSS("outline-style", "solid");
+    await toggle.evaluate((element: HTMLButtonElement) => { element.disabled = true; });
+    expect(await toggle.evaluate((element) => getComputedStyle(element).color)).toBe(ink);
+    await toggle.evaluate((element: HTMLButtonElement) => { element.disabled = false; });
+  }
+});
+
 test("XP and streak persist without awarding retry or skip", async ({ page }) => {
   await page.goto("/#/practice?question=windows-copy");
   await page.getByRole("button", { name: "セッション開始" }).click();

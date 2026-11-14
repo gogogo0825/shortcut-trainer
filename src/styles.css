@@ -68,7 +68,7 @@
   }
 
   .button-secondary {
-    @apply rounded-lg border border-line bg-panel px-3 py-2 text-sm font-medium text-ink transition hover:bg-canvas;
+    @apply rounded-lg border border-line bg-panel px-3 py-2 text-sm font-medium text-ink hover:bg-canvas;
   }
 
   .skip-link {

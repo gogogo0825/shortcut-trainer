@@ -60,7 +60,7 @@ export function HomePage() {
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {categories.map(([name, description, category], index) => (
             <Link
-              className="surface-card group p-5 transition hover:-translate-y-0.5 hover:border-brand-600/40 hover:shadow-md"
+              className="surface-card group p-5 transition-[transform,box-shadow,border-color] hover:-translate-y-0.5 hover:border-brand-600/40 hover:shadow-md"
               key={name}
               to={`/practice?category=${category}`}
             >

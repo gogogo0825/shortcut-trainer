@@ -35,7 +35,7 @@ export function AppLayout({ children }: { children: React.ReactNode }) {
               {navigation.map(({ to, label, end }) => (
                 <NavLink
                   className={({ isActive }) =>
-                    `rounded-lg px-3 py-2 text-sm font-medium transition-colors ${
+                    `rounded-lg px-3 py-2 text-sm font-medium ${
                       isActive
                         ? "bg-brand-50 text-brand-700 dark:bg-slate-800 dark:text-brand-100"
                         : "text-muted hover:bg-canvas hover:text-ink"
